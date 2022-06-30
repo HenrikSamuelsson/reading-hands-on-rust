@@ -11,5 +11,5 @@ fn what_is_your_name() -> String {
 fn main() {
     println!("Hello, what's your name?");
     let name = what_is_your_name();
-    println!("Hello, {}", name)
+    println!("{:?}", name)
 }
