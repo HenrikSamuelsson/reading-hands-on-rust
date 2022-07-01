@@ -9,6 +9,7 @@ fn what_is_your_name() -> String {
 }
 
 fn main() {
+    let _visitor_list = ["bert", "steve", "fred"];
     println!("Hello, what's your name?");
     let name = what_is_your_name();
     println!("{:?}", name)
